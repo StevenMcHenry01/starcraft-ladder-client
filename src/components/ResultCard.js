@@ -37,7 +37,7 @@ export default function ResultCard({ result, other }) {
           )}
           <img
             className='avatar'
-            src={`/app/assets/${result.player.teamMembers[0].favoriteRace}icon.png`}
+            src={`/assets/${result.player.teamMembers[0].favoriteRace}icon.png`}
             alt={`Avatar for ${result.player.teamMembers[0].favoriteRace}`}
           />
           <h4 className='center-text'>Score: {result.score}</h4>
