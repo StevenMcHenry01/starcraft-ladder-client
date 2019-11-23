@@ -1,7 +1,10 @@
 import axios from 'axios'
 
 let players = null
+// deploy endpoint
 const apiEndpoint = 'https://starcraft-ladder-api.herokuapp.com/ladder'
+// dev endpoint
+// const apiEndpoint = 'http://localhost:7777/ladder'
 
 export function fetchStarcraftLadder(region) {
   region = region.toLowerCase()
